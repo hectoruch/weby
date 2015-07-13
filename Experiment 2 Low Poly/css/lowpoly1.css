@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	margin-top:3em;
+	margin-bottom:6em;	
+}
+
+svg {
+  max-width: 100%;
+}
+
+.polylion {
+  height: 800px;
+}
+
