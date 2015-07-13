@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	margin-top:3em;
+	margin-bottom:5em;	
+}
+
+.example-animate{
+	background: black url(img/flowers.jpg);
+  	background-size: cover;
+  	-webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+ 	-webkit-transition: -webkit-clip-path 0.5s;
+    transition: -webkit-clip-path 0.5s;
+	clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transition: clip-path 0.5s;
+	transition:0.5s;
+	width:200px;
+	height:200px;
+	margin: 1em auto;
+	padding:5px;
+	margin-bottom: 5em;
+}
+
+.example-animate:hover{
+	-webkit-clip-path: polygon(20% 0%, 0% 0%, 0% 50%, 0% 80%, 0% 100%, 50% 100%, 80% 100%, 100% 100%, 100% 50%, 100% 0%, 80% 0%, 50% 0%);
+	clip-path: polygon(20% 0%, 0% 0%, 0% 50%, 0% 80%, 0% 100%, 50% 100%, 80% 100%, 100% 100%, 100% 50%, 100% 0%, 80% 0%, 50% 0%);
+}
+
+
+.example-triangle {
+  	-webkit-clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  	background: black url(img/flowers.jpg);
+  	background-size: cover;
+  	width:200px;
+	height:200px;
+	margin: 1em auto;
+	padding:5px;
+	margin-bottom: 5em;
+}
+
+.example-circle{
+	-webkit-clip-path: circle(50% at 50% 50%);	
+  	background: black url(img/flowers.jpg);
+  	background-size: cover;
+  	width:200px;
+	height:200px;
+	margin: 1em auto;
+	padding:5px;
+	margin-bottom: 5em;
+}
