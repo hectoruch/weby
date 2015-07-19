@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="css/normalize.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/robyt.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/transition.css"/>
+<link rel="stylesheet" href="css/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+<script src="js/modernizr-2.8.3.min.js"></script>
+<title>Transition cards #1</title>
+</head>
+<body>
+<section class="kol-80 anular card" id="card1">
+	<article class="center text-center">
+    	<h1>Card number 1</h1>
+        <p class="text-center">Hi I am the first card, I am white!</p>
+    </article>
+    <aside class="left">
+    </aside>
+    <aside class="right" onClick="next(1)">
+    </aside>
+</section>
+
+<section class="kol-80 anular card" id="card2">
+	<article class="center text-center">
+    	<h1>Card number 2</h1>
+        <p class="text-center">Hi I am the second card, I am white!</p>
+    </article>
+    <aside class="left" onClick="backt(2)">
+    </aside>
+    <aside class="right" onClick="next(2)">
+    </aside>
+</section>
+
+<section class="kol-80 anular card" id="card3">
+	<article class="center text-center">
+    	<h1>Card number 3</h1>
+        <p class="text-center">Hi I am the third card, I am white!</p>
+    </article>
+    <aside class="left" onClick="backt(3)">
+    </aside>
+    <aside class="right">
+    </aside>
+</section>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jcanvas.min.js"></script>
+<script src="js/transition.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:title;
+	src:url(fonts/UbuntuMono-Regular.ttf);
+}
+
+@font-face{
+	font-family:text;
+	src: url(fonts/Textos.otf);
+}
+
+body{
+	background:#2c343b !important;	
+}
+
+.card{
+	background: #F7F7F7;
+	padding: 0em !important;
+	margin-top: 2.5em !important;
+	border-radius:2px;
+	box-shadow: 2px 2px 2px #888888;
+	transition:all 1s;
+}
+
+.card h1{
+	font-family:title;
+	font-size:50px;
+	margin-bottom:0.5em;
+}
+
+.card p{
+	line-height:36px;
+	font-family:text;
+	font-size:24px;	
+}
+
+.center{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:1000px;
+	margin-left:-500px;
+	height:300px;
+	margin-top:-150px;
+	padding:5px;
+}
+
+.left{
+    position: fixed;
+    left: 0;
+	padding:1em;
+	cursor:pointer;
+	background:#43484C;
+}
+
+.right{
+    position: fixed;
+    right: 0;
+	padding:1em;
+	cursor:pointer;
+	background:#43484C;
+}
+
+.spin{
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;	
+}
+
+#card2{
+	display:none;	
+}
+#card3{
+	display:none;	
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@media (max-width: 1100px){
+.center{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:600px;
+	margin-left:-300px;
+	height:300px;
+	margin-top:-150px;
+	padding:5px;
+}
+}
+@media (max-width: 900px){
+	.kol-80{
+		width:80%;
+	}
+}
+
+@media (max-width: 640px){
+.card h1{
+	font-family:title;
+	font-size:35px;
+	margin-bottom:0.5em;
+}
+
+.card p{
+	line-height:36px;
+	font-family:text;
+	font-size:18px;	
+}
+.center{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:400px;
+	margin-left:-200px;
+	height:300px;
+	margin-top:-150px;
+	padding:5px;
+}
+}
