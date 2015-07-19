@@ -4,5 +4,5 @@ Weby is a web design and blog publishing tutorials on different experimental ele
 ##Experiments 
   - Clip-Path basic: http://weby.16mb.com/experiments/1/tutorial.php
   - Low Poly: http://weby.16mb.com/experiments/2/tutorial.php
-  - Transition Cards (20/07/2015)
+  - Transition Cards: 
   - Text animation (border) (26/07/2015) 
