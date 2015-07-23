@@ -6,3 +6,4 @@ Weby is a web design and blog publishing tutorials on different experimental ele
   - Low Poly: http://weby.16mb.com/experiments/2/tutorial.php
   - Transition Cards: http://weby.16mb.com/experiments/3/tutorial.php
   - Text animation (border) (26/07/2015). 
+  - Low Poly animation (03/08/2015).
