@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:text;
+	src: url(fonts/Slash.ttf);
+}
+
+@font-face{
+	font-family:porkys;
+	src: url(fonts/PORKYS.TTF);
+}
+
+body{
+	background:#2c343b !important;	
+}
+
+.cartel h1{
+	font-family:porkys;
+	color:#2c343b !important;
+	font-size:250px;
+	margin-top:0.65em !important;
+	margin-bottom:0.3em !important;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #2E353A;
+	transition:all 0.5s;	
+}
+
+
+.panel{
+	color:#FFF;
+	position: fixed;
+  	bottom: 0;	
+}
+
+.panel .butn{
+	color: #333 !important;
+	background:#FFF;
+	border-radius:0px;
+	font-family:text;
+}
+
+
+
+
